@@ -4,8 +4,8 @@
   "description": "Бесконечный скрол",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /infinite-scroll/"  
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /infinite-scroll/"  
   },
   "repository": {
     "type": "git",
